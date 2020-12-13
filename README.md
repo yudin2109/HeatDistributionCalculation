@@ -28,3 +28,15 @@ At x =   1:     u(x, y) = 0.030889, u_accurate = 0.000000
 Absolute deviation = 0.384742
 Mean absolute deviation = 0.034977
 ```
+
+## Testing
+Uncomment [this](https://github.com/yudin2109/HeatDistributionCalculation/blob/main/heat_equation.c#L43-L53) block
+
+## Time measurements
+For  `N_POINTS in [2000, 10 000, 50 000]` and `NUM_PROCS in [2, 4, 6, 8]`
+
+![alt text](https://github.com/yudin2109/HeatDistributionCalculation/blob/main/measure_plot/times_2000.png)
+
+![alt text](https://github.com/yudin2109/HeatDistributionCalculation/blob/main/measure_plot/times_10K.png)
+
+![alt text](https://github.com/yudin2109/HeatDistributionCalculation/blob/main/measure_plot/times_50K.png)
